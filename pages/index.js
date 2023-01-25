@@ -16,19 +16,17 @@ export default function Home() {
         <h1 className={styles.title}>Welcome to my home page</h1>
 
       <div className={styles.grid}>
-        <div className={styles.grid_container} style={{display:"grid"}}>
-          <div className={styles.grid_item}>
+        <div className={styles.grid__container} style={{display:"grid"}}>
+          <div className={styles.grid__item}>
             <h2>What does C.R.U.D stand for?</h2>
           </div>
-            <div className={styles.grid_item}>
+            <div className={styles.grid__item}>
             <ul>
               <li>Create</li>
               <li>Read</li>
               <li>Update</li>
               <li>Delete</li>
             </ul>
-          </div>
-          <div className={styles.grid_item}>
             <button>View all this info</button>
           </div>
         </div>
